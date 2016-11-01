@@ -34,11 +34,11 @@ public class Home extends HttpServlet {
 	}
 
 	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 * @see HttpServlet#Add(int a, int b)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void Add(int a, int b) {
 		// TODO Auto-generated method stub
-		doGet(request, response);
+		return a+b;
 	}
 
 }
